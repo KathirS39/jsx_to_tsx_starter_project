@@ -33,7 +33,7 @@ function App() {
           Edit <code className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded text-sm font-mono">src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="text-gray-500 text-sm">
+      <p className="mt-6 text-gray-500 text-sm">
         Click on the Vite and React logos to learn more
       </p>
       <SumComponent /> {/* Use the SumComponent */}
