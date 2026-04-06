@@ -15,8 +15,8 @@ function SumComponent() {
     <div className="mt-6 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-md text-center">
       <input type="number" value={num1} onChange={(e) => setNum1(Number(e.target.value))} className="w-20 px-2 py-1 mr-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white" />
       <input type="number" value={num2} onChange={(e) => setNum2(Number(e.target.value))} className="w-20 px-2 py-1 mr-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white" />
-      <button onClick={calculateSum} className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 active:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 transition duration-200">Calculate Sum</button>
-      <p className="mt-3 text-gray-700 dark:text-gray-300">Sum: {sum}</p>
+      <button onClick={calculateSum} className="bg-green-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-green-700 active:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 transition duration-200">Calculate Sum</button>
+      <p className="mt-3 text-4xl font-bold text-gray-800 dark:text-white">Sum: {sum}</p>
     </div>
   );
 }
